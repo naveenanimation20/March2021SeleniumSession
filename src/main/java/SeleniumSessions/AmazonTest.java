@@ -15,7 +15,9 @@ public class AmazonTest {
 		String title = br.doGetTitle();
 		System.out.println("title is: " + title);
 
-		br.closeBrowser();
+		//br.closeBrowser();
+		
+		br.quitBrowser();
 
 	}
 
